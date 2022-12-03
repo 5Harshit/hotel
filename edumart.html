@@ -1,0 +1,138 @@
+<html>
+  <head>
+    <style>
+      #top{
+        height: 50px;
+        width: 100%;
+        padding-top: 10px;
+        padding-left: 50px;
+      }
+      .top01{
+        height: 40px;
+        width: 100px;
+        float: left;
+        margin-right: 340px;
+      }
+      .top02{
+        float: left;
+        height: 50px;
+        width: 130px;
+      }
+      nav{
+        height: 40px;
+        width: 100%;
+        background: green;
+        margin-top: -16px;
+        text-align: center;
+        line-height: 40px;
+       
+      }
+       nav ul li{
+         border-right:.5px solid rgba(255, 255, 255, .3);
+         background: green;
+          color: white;
+          list-style: none;
+          float: left;
+          height: 40px;
+          width: 100px;
+       }
+       a{
+          text-decoration: none;  
+          color: white;
+       }
+       nav ul li >ul{
+         text-align: center;
+         transform: translate(-40px, 0px);
+         display: none;
+      
+        }
+        nav ul li:hover > ul{
+          display: block;
+        }
+        li:hover{
+         background: #83BF75;color: white;
+        }
+        .hr{
+          float: left;
+          height: 30px;
+          margin-left: 20px;
+          margin-right: 20px;;
+          width: 1px;
+          background: silver;
+        }
+        #search{
+          height: 20px;
+          border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-bottom-style: groove ;
+        border-bottom: 1px solid white;
+        margin-top: 10px;
+        background:rgba(255, 255, 255, .0);
+        font-size: 12px;
+        color: white;
+        }
+        #search:focus{
+          outline: none;
+        }
+        #Sr{
+          color: red;
+          height: 20px;
+          width: 20px;
+          
+        }
+      </style>
+  </head>
+  <body>
+    <div id="top">
+      <div class="top01">
+        <img src="https://cdn-icons-png.flaticon.com/512/2972/2972085.png" style="height:40px; width:40px;"/>
+        <div style="transform: translate(45px,-40px); float:left;">
+          <b style="font-family:Times New Roman; font-size:20px">Edumart</b><br/><text style="font-weight:300">Onine</text>
+        </div>
+        </div>
+        <div class="top02">
+          <text style="font-weight:300; font-size:10px;">EMAIL</text><br/>info@edumart.org
+        </div>
+        <div class="hr"></div>
+        <div class="top02">
+          <text style="font-weight:300; font-size:10px;">TOL FREE</text><br/>1800 000 0000
+        </div>
+        <div class="hr"></div>
+        <div class="top02">
+          <input type="submit" value="Student Login" style="border-radius:4px;height:40px; text-align:left;padding-left:20px; width:160px; border:2px solid blue; background: white;"/>
+          <img src="https://cdn-icons-png.flaticon.com/512/5690/5690573.png" style="height:15px;width:15px; transform:translate(120px, -28px"/>
+        </div>
+      </div>
+      <div>
+        <nav>
+          <ul>
+            <a href="#"><li>HOME</li></a>
+            <a href="#"><li>ABOUT</li></a> 
+            <a href="#"><li style="width:130px;">OUR COURSES >
+            <ul>
+              <a href="#"><li style="width:130px;">HTML</li></a>
+              <a href="#"><li style="width:130px;">CSS</li></a>
+              <a href="#"><li style="width:130px;">JAVASCRIPT</li></a>
+              <a href="#"><li style="width:130px;">BOOTSTRAPE</li></a>
+            </ul>
+            </li></a>
+            <a href="#"><li>GALLERY</li></a>
+            <a href="#"><li>PAGE >
+            <ul>
+              <a href="#"><li>1</li></a>
+              <a href="#"><li>2</li></a>
+              <a href="#"><li>3</li></a>
+            </ul></li></a>
+            <a href="#"><li style="border:none;">CONTACT</li></a>
+            <div style="float:left;height:40px; width:230px; margin-left:50px;background:rgba(255, 255, 255, .4);">
+            <input type="text" id="search" placeholder="SEARCH NOW"/>
+            <img id="Sr"src="https://cdn-icons-png.flaticon.com/128/622/622669.png">
+            </div>
+          </ul>
+        
+        </nav>
+      </div>
+    
+  </body>
+</html>
